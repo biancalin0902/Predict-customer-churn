@@ -1,5 +1,5 @@
 # Customer Churn Prediction Using Machine Learning Models
-Overview
+#Overview
 
 This repository contains the final project for ALY6020 - Predictive Analytics. 
 
@@ -7,70 +7,78 @@ The objective of this project is to predict customer churn by leveraging demogra
 
 Through comprehensive analysis and the implementation of various machine learning models, we explore factors influencing customer attrition and recommend the most suitable predictive model.
 
-Project Description
 
-Dataset Size: 10,000 records with 14 features.
+#Project Description
 
-Target Variable: Exited (indicates whether a customer churned).
+1. Dataset Size: 10,000 records with 14 features.
 
-Features: Includes demographic details like age, nationality, and gender, as well as banking activity metrics like credit card ownership and number of products used.
+2. Target Variable: Exited (indicates whether a customer churned).
 
-Goals
+3. Features: Includes demographic details like age, nationality, and gender, as well as banking activity metrics like credit card ownership and number of products used.
 
-Identify key factors influencing customer churn.
 
-Build predictive models using various machine learning techniques.
+#Goals
 
-Evaluate and compare model performance using metrics like accuracy, precision, recall, and runtime.
+1. Identify key factors influencing customer churn.
 
-Recommend the most effective model for customer churn prediction.
+2. Build predictive models using various machine learning techniques.
 
-Project Phases:
+3. Evaluate and compare model performance using metrics like accuracy, precision, recall, and runtime.
 
-Data Cleaning
+4. Recommend the most effective model for customer churn prediction.
 
-Removed irrelevant columns, handled missing values, and addressed outliers using the Interquartile Range (IQR) method.
 
-Exploratory Data Analysis (EDA)
+#Project Phases:
+
+1. Data Cleaning
+
+2. Removed irrelevant columns, handled missing values, and addressed outliers using the Interquartile Range (IQR) method.
+
+
+#Exploratory Data Analysis (EDA)
 
 Uncovered key trends such as churn rate by age and activity level, and identified correlations between features.
 
-Model Development
+
+#Model Development
 
 Implemented the following machine learning models:
 
-K-Nearest Neighbors (KNN)
+1. K-Nearest Neighbors (KNN)
 
-Decision Tree
+2. Decision Tree
 
-Random Forest
+3. Random Forest
 
-Gradient Boosting
+4. Gradient Boosting
 
-Support Vector Machine (SVM) with Linear, RBF, and Polynomial Kernels
+5. Support Vector Machine (SVM) with Linear, RBF, and Polynomial Kernels
 
-Neural Network Each model was optimized using hyperparameter tuning
+6. Neural Network Each model was optimized using hyperparameter tuning
 
-Performance Evaluation
+
+#Performance Evaluation
 
 Models were assessed using training and testing datasets. Metrics include:
 
-Accuracy
+1. Accuracy
 
-Precision and recall for both churned and non-churned classes
+2. Precision and recall for both churned and non-churned classes
 
-Runtime efficiency
+3. Runtime efficiency
 
-Model Comparison
+
+#Model Comparison
 
 Gradient Boosting emerged as the best-performing model with an accuracy of 85.20%, followed by Random Forest (84.25%).
 
-Key Findings
 
-Older customers and those from specific regions (e.g., Germany) are more likely to churn.
+#Key Findings
 
-Active members are significantly less likely to churn.
+1. Older customers and those from specific regions (e.g., Germany) are more likely to churn.
 
-Gradient Boosting achieved the best balance of accuracy, precision, and recall, making it the most effective model for this task.
+2. Active members are significantly less likely to churn.
+
+3. Gradient Boosting achieved the best balance of accuracy, precision, and recall, making it the most effective model for this task.
 
 
